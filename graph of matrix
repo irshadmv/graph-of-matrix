@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+array=([0.1,0.2],[0.3,0.4])
+matrixises=np.matrix(array)
+plt.matshow(matrixises)
+plt.show()
